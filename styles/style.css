@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*header area*/
+header{
+    height: 80vh;
+    background-image: url(../images/banner/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.motivation-container{
+    width: 100%;
+    margin: 0 100px;
+    text-align: right;
+}
+.motivation-container>h1{
+    font-size: 65px;
+}
+.motivation-container>p{
+    margin: 15px 0;
+    font-size: 16px;
+}
+.contact-btn{
+    padding: 10px 15px; 
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: white;
+}
+/*main area*/
+main{
+    padding: 70px 200px;
+}
+/*section area*/
+section{
+    margin: 50px 0;
+}
+/*about-me section area*/
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.description-container>h2{
+    font-size: 40px;
+}
+.description-container>p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.description-container>ul>li{
+    list-style: none;
+    margin: 3px 0;
+}
+.description-container>ul>li i{
+    color: #16D887;
+    margin-right: 5px;
+}
+/*plan section area*/
+.plans{
+    padding: 30px;
+}
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+}
+.plan-contents{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    padding: 20px 10px;
+}
+.plan-content{
+    text-align: center;
+}
+/*exercise section area*/
+.exercise{
+    padding: 30px;
+}
+.exercise-container>h1{
+    text-align: center;
+    font-size: 40px;
+}
+.exercises{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    gap: 15px;
+}
+.exercises div{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.exercises div i{
+    font-size: 54px;
+    margin: 5px;
+}
+.exercises div h4{
+    font-size: 24px;    
+}
+.exercises div p{
+    font-size: 16px;    
+}
+/*mind-set section area*/
+.mind-set{
+    height: 40vh;
+    background-image: url(../images/gradient2.png),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mind-set-container{
+    margin-left: 50px;
+    padding: 10px;
+}
+.mind-set-container>h2{
+    font-size: 40px;
+    color: white;
+}
+.call-btn{
+    padding: 10px 20px;
+    background-color: white;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+/*footer area*/
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+.info-area{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+.info-area>h1{
+    font-size: 45px;
+}
+.info-area>p, .info-area span{
+    font-size: 16px;
+}
+.social-media>ul{
+    display: flex;
+    gap: 10px;
+}
+.social-media>ul>li{
+    list-style: none;
+}
+.social-media>ul li img{
+    width: 46px;
+}
+.subscribe-area{
+    padding: 10px;
+}
+.subscribe-area>h1{
+    font-size: 25px;
+}
+.subscribe-area>form{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.subscribe-area>form>input{
+    width: 250px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+::placeholder{
+    color: white;
+}
+#submit-btn{
+    width: 150px;
+    background-color: white;
+    color: #F15B22;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
